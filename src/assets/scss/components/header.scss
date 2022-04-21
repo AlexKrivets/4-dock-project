@@ -72,7 +72,9 @@
 // max-width: calc((100% - 20px) / 5);
 @media (max-width: 720.75px) {
     .header {
-        &__submenu {}
+        &__menu {
+            flex-direction: column;
+        }
         &__greytext:hover {
             color: #121722;
             font-size: 40px;
