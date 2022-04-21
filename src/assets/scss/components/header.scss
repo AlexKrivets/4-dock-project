@@ -1,1 +1,26 @@
-header {}
+.header {
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    &__submenu {
+        display: flex;
+        align-items: center;
+    }
+    &__login {
+        display: flex;
+    }
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        margin-left: 32px;
+    }
+    a:hover {
+        color: blue;
+    }
+    &__login__get {
+        border: 1px solid black;
+    }
+}
