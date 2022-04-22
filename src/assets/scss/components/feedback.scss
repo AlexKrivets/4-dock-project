@@ -39,6 +39,32 @@
     &__person--card {
         padding-top: 144px;
     }
+    &__transform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 103px;
+    }
+    &__transform--title {
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #121722;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__transform--text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 32px;
+        color: rgba(18, 23, 34, 0.7);
+        margin-top: 7px;
+    }
 }
 
 @media (max-width: 1169.75px) {
