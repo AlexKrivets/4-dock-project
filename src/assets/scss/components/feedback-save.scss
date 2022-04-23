@@ -1,0 +1,16 @@
+.feedback__save {
+    background-color: #f1f5ff80;
+}
+
+.feedback__move {
+    background-color: #f1f5ff80;
+}
+
+.feedback {
+    &__save--img {
+        padding-top: 36px;
+    }
+    &__save--card {
+        padding-top: 24px;
+    }
+}

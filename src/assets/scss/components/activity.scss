@@ -1,0 +1,32 @@
+.activity {
+    margin-top: 48px;
+    display: flex;
+    background-color: #121722;
+    border-radius: 16px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        padding: 226px 0 0 48px;
+    }
+    &__img {
+        width: 99%;
+        padding: 80px 23px 80px 128px;
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 38px;
+        padding-bottom: 20px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #b9c0d5;
+    }
+}
