@@ -1,0 +1,44 @@
+.footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 75px;
+    &__submenu {
+        display: flex;
+        flex-direction: column;
+    }
+    &__privacy {
+        display: flex;
+        flex-direction: column;
+    }
+    &__support {
+        display: flex;
+        flex-direction: column;
+    }
+    &__general {
+        display: flex;
+        flex-direction: column;
+    }
+    &__submenu--text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: rgba(18, 23, 34, 0.7);
+    }
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #121722;
+        padding-bottom: 8px;
+        text-decoration: none;
+    }
+    &__submenu--logo {
+        margin-bottom: 8px;
+    }
+}

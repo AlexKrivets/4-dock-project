@@ -1,0 +1,30 @@
+.started {
+    height: 346px;
+    background-color: #4058ff;
+    border-radius: 16px;
+    text-align: center;
+    &__title {
+        padding-top: 124px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 38px;
+        color: #ffffff;
+        margin-bottom: 32px;
+    }
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        background-color: #ffffff;
+        color: #4058ff;
+        box-shadow: 0px 4px 4px rgba(18, 23, 34, 0.01);
+        border-radius: 100px;
+        padding: 14px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
