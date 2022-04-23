@@ -1,0 +1,36 @@
+.templates {
+    text-align: center;
+    margin-top: 48px;
+    &__body {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: rgba(18, 23, 34, 0.46);
+        padding-top: 8px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #121722;
+    }
+    &__item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 23px;
+    }
+}

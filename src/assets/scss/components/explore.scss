@@ -1,0 +1,36 @@
+.explore {
+    text-align: center;
+    &__link {
+        display: inline-block;
+        background: rgba(64, 140, 255, 0.1);
+        border-radius: 34px;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        color: #4058ff;
+        padding: 13px 22px 16px 26px;
+        margin-top: 17px;
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #121722;
+        padding-bottom: 17px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 32px;
+        color: rgba(18, 23, 34, 0.7);
+    }
+}
