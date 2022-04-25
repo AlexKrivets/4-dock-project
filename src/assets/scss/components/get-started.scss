@@ -27,6 +27,9 @@
         text-align: center;
         text-decoration: none;
     }
+    &__link:hover {
+        color: #e43e15;
+    }
     @media (max-width: 507.75px) {
         .started {
             &__title {
