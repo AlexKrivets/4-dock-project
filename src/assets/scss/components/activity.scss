@@ -30,3 +30,41 @@
         color: #b9c0d5;
     }
 }
+
+@media (max-width: 1169.75px) {
+    .activity {
+        &__img--style {
+            width: 100%;
+        }
+        &__item {
+            width: 40%;
+            padding-top: 80px;
+            padding-left: 5px;
+        }
+        &__img {
+            padding-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 767.75px) {
+    .activity {
+        width: 98%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        &__item {
+            padding-top: 20px;
+            padding-left: 5px;
+            width: 100%;
+            text-align: center;
+        }
+        &__title {
+            font-size: 26px;
+        }
+        &__img {
+            width: 98%;
+            padding: 10px 5px;
+        }
+    }
+}

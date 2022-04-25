@@ -105,11 +105,19 @@
         &__feed {
             width: 98%;
             height: 100%;
+            padding-left: 2px;
         }
         &__person {
             padding-left: 1px;
             width: 98%;
             height: 100%;
+        }
+        &__person--title {
+            font-size: 26px;
+            padding-top: 20px;
+        }
+        &__person--text {
+            font-size: 18px;
         }
         &__person--img {
             width: 98%;
@@ -120,7 +128,7 @@
             padding-top: 39px;
         }
         &__transform--text {
-            padding-left: 10px;
+            padding-left: 17px;
         }
     }
 }

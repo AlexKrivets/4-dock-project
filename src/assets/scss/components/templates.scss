@@ -35,3 +35,21 @@
         padding-top: 23px;
     }
 }
+
+@media (max-width: 767.75px) {
+    .templates {
+        &__body {
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width: 507.75px) {
+    .templates {
+        &__body {
+            grid-template-columns: 1fr;
+            margin: 0 auto;
+        }
+    }
+}

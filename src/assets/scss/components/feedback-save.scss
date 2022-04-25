@@ -14,3 +14,14 @@
         padding-top: 24px;
     }
 }
+
+@media (max-width: 767.75px) {
+    .feedback {
+        &__transform--title {
+            font-size: 26px;
+        }
+        &__transform--text {
+            font-size: 18px;
+        }
+    }
+}

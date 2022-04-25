@@ -37,6 +37,7 @@
 
 @media (max-width: 1097.75px) {
     .navigator {
+        width: 100%;
         &__img {
             width: 60%;
         }
@@ -65,6 +66,12 @@
     .navigator {
         &__text {
             margin-left: 10px;
+        }
+        &__title {
+            font-size: 26px;
+        }
+        &__subtitle {
+            font-size: 18px;
         }
     }
 }

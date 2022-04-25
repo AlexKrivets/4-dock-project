@@ -85,8 +85,12 @@
 // @media (max-width: 1169.75px) {}
 @media (max-width: 1023.75px) {
     .new__img--style {
-        width: 100%;
+        width: 98%;
         margin-top: 110px;
+    }
+    .new__title {
+        width: 99%;
+        font-size: 26px;
     }
 }
 
@@ -100,19 +104,28 @@
         align-items: center;
         &__item {
             align-items: center;
+            margin-top: 30px;
         }
         &__title {
-            font-size: 40px;
+            font-size: 26px;
             max-width: 100%;
         }
         &__text {
             max-width: 100%;
+            font-size: 18px;
         }
         &__transform--title {
-            font-size: 40px;
+            font-size: 26px;
         }
         &__transform--text {
             padding-left: 10px;
+            font-size: 18px;
+        }
+        &__img {
+            width: 98%;
+        }
+        &__transform {
+            margin-top: 30px;
         }
     }
 }

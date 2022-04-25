@@ -62,7 +62,7 @@
         &__submenu {
             margin-bottom: 15px;
             flex-wrap: wrap;
-            flex-direction: column;
+            // flex-direction: column;
             height: 300px;
             justify-content: space-around;
         }
@@ -70,18 +70,24 @@
 }
 
 // max-width: calc((100% - 20px) / 5);
-@media (max-width: 720.75px) {
+@media (max-width: 520.75px) {
     .header {
         &__menu {
             flex-direction: column;
         }
+        &__submenu {
+            flex-direction: column;
+        }
+        &__greytext {
+            font-size: 26px;
+        }
         &__greytext:hover {
-            color: #121722;
-            font-size: 40px;
+            color: #345db6;
+            font-size: 26px;
         }
         &__login--get:hover {
-            font-size: 20px;
-            color: #121722;
+            color: #040d20;
+            font-size: 16px;
         }
         &__item {
             width: 100%;
